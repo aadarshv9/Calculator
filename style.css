@@ -1,0 +1,59 @@
+#calculator{
+	display: flex;
+	flex-direction: column;
+	height: 30rem;
+	width: 20rem;
+	margin: auto;
+}
+
+#screen{
+	font-size: 2rem;
+	font-weight: bold;
+	display: flex;
+	height: 20%;
+	background-color: #f0e4e5;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.keypad{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 80%;
+	background-color: #f0e4e5;
+}
+
+.keypad>div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 19.5%;
+}
+
+.keypad div div{
+	display: flex;
+	align-items: center;
+	width: 24.5%;
+	height: auto;
+	justify-content: center;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: white;
+}
+
+#minus,#plus,#divide,#multiply,#equal{
+	background-color: #9c2430;
+}
+
+#minus:hover,#plus:hover,#divide:hover,#multiply:hover,#equal:hover{
+	background-color: #960000;
+}
+
+#zero{
+	width: 49.5%;
+}
+
+.keypad div div:hover{
+	background-color: #daeff2;
+}
